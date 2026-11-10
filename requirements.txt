@@ -1,0 +1,16 @@
+# Versions used to run the test suite (Python 3.12).
+# On Windows or Linux with an NVIDIA GPU, install a CUDA build of torch from https://pytorch.org.
+numpy==2.3.3
+pandas==2.3.3
+scipy==1.16.2
+scikit-learn==1.7.2
+lightgbm==4.6.0
+catboost==1.2.10
+optuna==5.0.0
+torch==2.6.0
+vectorbt==1.0.0
+statsmodels==0.15.0
+matplotlib==3.10.6
+seaborn==0.13.2
+tqdm==4.67.1
+pytest==9.2.0

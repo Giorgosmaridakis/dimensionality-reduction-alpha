@@ -1,0 +1,50 @@
+# Data and generated tables
+*.csv
+*.xlsx
+*.parquet
+*.png
+*.pkl
+*.pt
+*.cbm
+
+# The one results table kept in the repository
+!results/results_summary.csv
+!Pipeline/data/tickers/*.csv
+
+# Market data (see Pipeline/data/README.md)
+ETFs/
+S&P500/
+
+# Experiment outputs
+Results_Pipeline_*/
+portfolio_metrics_*/
+ETFs_Results/
+S&P500_Results/
+Nested_Results/
+raw_feature_spanning_tree/
+PCA_Justification_Report/
+Pipeline/temp/
+Backtester/*.html
+Backtester/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+env/
+build/
+dist/
+.pytest_cache/
+pytest-cache-files-*/
+pytest_tmp*/
+.pytest_tmp*/
+.ipynb_checkpoints/
+catboost_info/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
